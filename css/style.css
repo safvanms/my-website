@@ -26,7 +26,11 @@ body a {
 	min-height: 750px;
 	position: relative;
 }
-
+@media (max-width: 450px) {
+    .header {
+        background:url(../images/ms.jpeg);
+    }
+}
 .menu {}
 
 .menu ul {
